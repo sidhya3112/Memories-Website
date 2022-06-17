@@ -73,7 +73,6 @@ const Form = () => {
                 <Button 
                 className={classes.buttonSubmit} 
                 variant="contained" 
-                color= "primary"
                 size="large" 
                 type="submit" 
                 fullWidth
@@ -84,7 +83,6 @@ const Form = () => {
                 <Button 
                 className={classes.buttonClear}
                 variant="contained" 
-                color="default" 
                 size="small" 
                 onClick= {clear}
                 fullWidth
