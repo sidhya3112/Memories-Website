@@ -30,8 +30,8 @@ const Post = ({ post }) => {
         <Typography variant="body2" color="textSecondary" component="p">{post.message}</Typography>
       </CardContent>
       <CardActions className={classes.cardActions}>
-        <Button size="small" color="primary" onClick={() => {}}><ThumbUpAltIcon fontSize="small" /> Like {post.likeCount} </Button>
-        <Button size="small" color="primary" onClick={() => {}}><DeleteIcon fontSize="small" /> Delete</Button>
+        <Button className={classes.buttons} size="small"  onClick={() => {}}><ThumbUpAltIcon fontSize="small" /> Like {post.likeCount} </Button>
+        <Button className={classes.buttons} size="small"  onClick={() => {}}><DeleteIcon fontSize="small" /> Delete</Button>
       </CardActions>
     </Card>
   );

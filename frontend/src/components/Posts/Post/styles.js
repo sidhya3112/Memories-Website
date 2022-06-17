@@ -49,4 +49,8 @@ export default makeStyles({
     display: 'flex',
     justifyContent: 'space-between',
   },
+
+  buttons: {
+    color: '#330033'
+  }
 });

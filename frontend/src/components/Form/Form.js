@@ -24,7 +24,7 @@ const Form = () => {
         <Paper className={classes.paper}>
             <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
                 <Typography variant="h6">
-                    Creating a Memory
+                    Let's Create A Memory!
                 </Typography>
                 <TextField 
                 name="creator" 
@@ -73,7 +73,7 @@ const Form = () => {
                 <Button 
                 className={classes.buttonSubmit} 
                 variant="contained" 
-                color="primary" 
+                color= "primary"
                 size="large" 
                 type="submit" 
                 fullWidth
@@ -82,8 +82,9 @@ const Form = () => {
                 </Button>
                 
                 <Button 
+                className={classes.buttonClear}
                 variant="contained" 
-                color="secondary" 
+                color="default" 
                 size="small" 
                 onClick= {clear}
                 fullWidth
