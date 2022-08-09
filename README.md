@@ -4,7 +4,7 @@
 For this purpose we have a form for post creation on the right-side and all the created posts can be viewed on the left-side.*
 
  ## *Tech-Stack Used:*
- * ReactJS - For Frontend
+ * ReactJS + MaterialUI - For Frontend
  * NodeJS + ExpressJS - For Backend
  * MongoDB - For Database
 
